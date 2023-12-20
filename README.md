@@ -22,9 +22,9 @@ The main aim is to equip stakeholders with actionable strategies to help them au
 To equip and help stakeholders with actionable insights and strategies by unearthing actionable insights that could redefine the future of digital engagement. In this report, I present my findings from the analysis, majorly focusing on user engagement across various metrics and times of the day, week, month and year.
 
 # Key Aim: 
-To extract actionable insights that could redefine the future of digital engagement.
+I extracted actionable insights that redefined the future of digital engagement.
 
-# Analysis Focus:
+# Analysis Focus: These are my analysis focus i worked on
 The analysis emphasizes user engagement across various metrics:
 
 # Descriptive Statistics and Data Cleaning:

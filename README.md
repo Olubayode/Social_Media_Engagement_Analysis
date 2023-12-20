@@ -29,46 +29,59 @@ The analysis emphasizes user engagement across various metrics:
 
 # Descriptive Statistics and Data Cleaning:
 •	Overview of the data, including the number of posts, unique values, missing values, and outliers.
+
 •	Methods and steps taken to clean and preprocess the data for analysis.
 
 # Platform Distribution Analysis:
 •	Analysis of the distribution of posts across different social media platforms.
+
 •	Insights into which platforms are most frequently used for posting and their respective engagement metrics.
 
 # Content Type Distribution:
 •	Analysis of the different types of content (e.g., photos, videos, links) shared across platforms.
+
 •	Insights into which content types are more prevalent and their engagement patterns.
 
 # Engagement Metrics Overview:
 •	A detailed breakdown of different engagement metrics like likes, shares, comments, and their distribution across platforms and content types.
+
 •	Analysis of top-performing posts based on these metrics.
 
 # User Behavior Analysis:
 •	Insights into user engagement patterns, such as when users are most active or which posts get the most comments or shares.
+
 •	Analysis of user feedback, comments, and their sentiment (positive, negative, neutral).
 
 # Correlation Analysis:
 •	Examination of the relationship between different metrics, such as likes and shares or comments and reach.
+
 •	Insights into which metrics are closely related and can influence each other.
 
 # Content Analysis:
 •	A deeper look into the themes or topics within the content that resonate most with the audience.
+
 •	Analysis of content attributes like length, hashtags, mentions, and their impact on engagement.
 
 # Sentiment Analysis:
 •	Definition and importance of sentiment analysis.
+
 •	Distribution of sentiments across various social media platforms.
+
 •	Insights from sentiment distribution across networks.
+
 •	Recommendations based on sentiment analysis.
 
 # Engagement Metrics vs. Sentiment:
 •	Analysis of likes, comments, and shares against sentiments.
+
 •	Insights derived from the metrics.
+
 •	Recommendations based on engagement metrics and sentiment.
 
 # Topic Modeling:
 •	Explanation of topic modeling and its significance.
-•	Distribution of topics across sentiments.
+
+•	Distribution of topics across sentiments/n
 •	Time series analysis of topic models.
 •	Post topics over time.
 

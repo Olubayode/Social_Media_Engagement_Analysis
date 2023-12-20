@@ -81,36 +81,48 @@ The analysis emphasizes user engagement across various metrics:
 # Topic Modeling:
 •	Explanation of topic modeling and its significance.
 
-•	Distribution of topics across sentiments/n
+•	Distribution of topics across sentiments
+
 •	Time series analysis of topic models.
+
 •	Post topics over time.
 
 # Temporal Analysis:
 •	Analysis of sentiments over the years.
+
 •	Sentiment trends over hours of the day.
+
 •	Recommendations based on temporal analysis.
+
 •	Recommendations and Actionable Insights:
 
 # Based on the analysis, recommendations are provided for content strategy, user engagement, and platform-specific tactics.
 •	Actionable insights that can be implemented to improve social media performance.
 # Visualizations:
 •	Various charts, graphs, and plots showcasing the distribution and trends in the data.
+
 •	Visual representation of the analysis to make the insights easily understandable.
 
 # Data Cleaning and Pre-processing Method:
 
 •	I began with data inspection to understand the structure and quality of the data from various platforms.
+
 •	I ensured all datasets had the same columns and then concatenated them into a single dataframe.
+
 •	I generated a detailed quality report displaying missing values, data types, and unique values.
+
 •	For data cleaning, I removed percentage signs and commas from certain columns and converted them to appropriate data types. I also defined and used functions to visualize the distribution of numeric columns and remove outliers.
 
 # Handling Missing Values:
 •	I visualized missing values using a heatmap.
+
 •	For certain columns, I used conditional imputation based on categories, like filling missing Impressions based on the Network category.
+
 •	For other columns, I used mean and median imputation.
 
 # Convert Data Types:
 •	I converted columns with percentage signs and commas to float data type.
+
 •	I also converted several columns to integer data type using the pd.to_numeric method.
 
 # Remove Duplicate Entries:
@@ -118,28 +130,41 @@ The analysis emphasizes user engagement across various metrics:
 
 # Exploratory Data Analysis (EDA):
 •	I grouped the data by certain columns to explore summarized data.
+
 •	I visualized the distribution of numeric columns and removed outliers.
+
 •	I examined unique values of certain columns and dropped columns that might not have been relevant for analysis.
 # Interpreting Visualizations:
 •	I visualized the distribution of numeric columns using the numeric_distribution_plot function. While the actual plots aren't displayed here, interpreting them would provide insights into the central tendency, spread, and shape of the data.
+
 •	Further steps I did include text cleaning, tokenizing, and removing stopwords. Additionally, I also handled more missing values and dropped columns that may not have been relevant.
 
 # Feature Engineering
 
 # Date-Time Features:
 •	I extracted several features from the Date column:
+
 •	Year: The year the post was made.
+
 •	Month: The month of the post.
+
 •	Day: The day of the month when the post was made.
+
 •	DayofWeek: The specific day of the week, which can help in analyzing patterns on particular days.
+
 •	Hour: The hour when the post was published, which can be crucial in analyzing user engagement based on different times of the day.
+
 These features provide insights into temporal patterns, such as which days or hours lead to higher engagement.
 
 # Text-Based Features:
 •	From the content of the posts, I derived:
+
 •	Word_Count: The number of words in the post, which can give insights into the length of the post and its correlation with engagement.
+
 •	Char_Count: The number of characters in the post. Longer posts might engage users differently compared to shorter ones.
+
 •	Avg_Word_Length: Average length of the words in the post. This might correlate with the complexity or clarity of the content.
+
 # These features can help in understanding how the length and depth of the content influence user engagement.
 
 # # Conclusion:
